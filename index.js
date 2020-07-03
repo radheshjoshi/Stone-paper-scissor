@@ -71,6 +71,8 @@ function userScissor(){
 
 function restartGame(){
     document.getElementById('results').innerHTML = "# wins";
-    document.getElementById('computerScore').innerHTML = "0";
-    document.getElementById('playerScore').innerHTML = "0";
+    computerScore =0;
+    playerScore = 0;
+    document.getElementById('computerScore').innerHTML = computerScore;
+    document.getElementById('playerScore').innerHTML = playerScore;
 }
